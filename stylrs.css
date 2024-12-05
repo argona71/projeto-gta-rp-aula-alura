@@ -1,0 +1,26 @@
+body {
+    background-color: blue;
+    }
+    
+    .categoria-videos {
+       display: flex;
+       overflow-x: auto;
+       gap:5px;
+       }
+    
+    .categoria {
+        padding-letf: 20px;
+        padding-left: 20px;
+        margin-top: 50px
+    }
+    
+    .categoria-videos img {
+        opacity: 0.5;
+        height: 200px;
+    }
+    
+    .categoria-videos img:hover{
+        opacity:1.0;
+        boder: 3px solid red;
+    }
+    
